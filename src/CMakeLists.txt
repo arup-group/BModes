@@ -42,6 +42,7 @@ if (FCNAME MATCHES "gfortran.*")
   set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -ffree-line-length-none")
 endif (FCNAME MATCHES "gfortran.*")
 
+set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -ffree-line-length-none")
 
 # use static libraries
 if (WIN32)
